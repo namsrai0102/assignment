@@ -9,13 +9,15 @@ p{
 }
 a{
     text-decoration: none;
-    color: #063255;
+    color: coral;
 }
 
 header{
    padding: 30px;
 }
-
+header a{
+    color: #063255;
+}
 .container{
     max-width: 1280px;
     margin: 0 auto;
@@ -42,6 +44,9 @@ header{
     margin: 0 auto;
 
 }
+.strategy img{
+    border-radius: 20px;
+}
 .prosper{
     font-size: 64px;
     color: #063255;
@@ -64,15 +69,25 @@ header{
 .worked img{
     padding: 20px 0;
 }
+.our a{
+    padding: 20px 0;
+    color: #063255;
+    text-align: center;
+}
+.our a:hover{
+    padding: 20px;
+    color: white;
+    background-color: #F58A07;
+    border-radius: 50px;
+    text-align: center;
+}
 .row{
     display: flex;
     justify-content: space-between;
     gap: 40px;
-    
-}
+}  
 .col-2{
     width: calc(100%/2 - 40px);
-   
 }
 .col-3{
     width: calc(100%/3 - 40px);
@@ -81,7 +96,7 @@ header{
     padding: 30px 0;
 }
 section{
-    padding: 70px 0;
+   padding: 70px;
 }
 .invoicing{
     background-color: white;
@@ -92,7 +107,7 @@ section{
 }
 .experience{
     font-size: 28px;
-    padding: 20px;
+    padding: 20px 0;
 }
 .award{
     color: coral;
@@ -121,13 +136,13 @@ section{
 .invoic{
     background-color: white;
     border-radius: 20px;
+    padding: 20px;
 }
-.invoic img{
+.invoic img {
+    padding: 0;
     width: 100%;
 }
-.invoic p{
-  padding: 20px;
-}
+
 footer{
     background-color: #063255;
     color: white;
@@ -146,4 +161,28 @@ footer a{
 .type-email a{
     color: black;
     
+}
+.icon i {
+    padding: 5px;
+}
+.see-job{
+    margin: 60px;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+    border-radius: 60px;
+}
+.latest a{
+    color: #F58A07;
+}
+.risk a{
+    color: #86bfee;
+    padding: 10px;
+    border: 3px solid #86bfee;
+    border-radius: 50px;
+}
+.risk a:hover{
+    color: #F58A07;
+    background-color: white;
+    border: 3px solid white;
 }
