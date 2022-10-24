@@ -1,188 +1,279 @@
 /* https://www.figma.com/proto/v4xu5W1zgnntFlhDtha0aV/Web-Design-Challenge-work?page-id=0%3A1&node-id=1%3A983&viewport=241%2C48%2C0.52&scaling=min-zoom */
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-p{
+
+p {
     line-height: 1.9rem;
 }
-a{
+
+a {
     text-decoration: none;
     color: coral;
 }
 
-header{
-   padding: 30px;
+header {
+    padding: 30px;
 }
-header a{
+
+header a {
     color: #063255;
 }
-.container{
+
+.container {
     max-width: 1280px;
     margin: 0 auto;
 }
-.nav-bar{
+
+.nav-bar {
     display: flex;
-    justify-content:end
+    justify-content: end
 }
+
 .nav-bar li {
     list-style-type: none;
     padding: 15px;
 }
-.cta-btm a{
+
+.cta-btm a {
     color: #F58A07;
 }
-.cta-btm{
-    background-color:#f4daba ;
+
+.cta-btm {
+    background-color: #f4daba;
     padding: 20px;
     border-radius: 9px;
 }
 
-.main-page{
-    background-color: #DCEAF5 ;
+.main-page {
+    background-color: #DCEAF5;
     margin: 0 auto;
 
 }
-.strategy img{
+
+.strategy img {
     border-radius: 20px;
 }
-.prosper{
+
+.prosper {
     font-size: 64px;
     color: #063255;
 
 }
-.ctm a{
+
+.ctm a {
     color: white;
 }
-.ctm{
+
+.ctm {
     margin: 9px 0;
     background-color: #F58A07;
     padding: 20px;
     border-radius: 90px;
     text-align: center;
 }
-.worked{
+
+.worked {
     margin: 30px 0;
-    
+
 }
-.worked img{
+
+.worked img {
     padding: 20px 0;
 }
-.our a{
+
+.our a {
     padding: 20px 0;
     color: #063255;
     text-align: center;
 }
-.our a:hover{
+
+.our a:hover {
     padding: 20px;
     color: white;
     background-color: #F58A07;
     border-radius: 50px;
     text-align: center;
 }
-.row{
+
+.row {
     display: flex;
     justify-content: space-between;
     gap: 40px;
-}  
-.col-2{
+}
+
+.col-2 {
     width: calc(100%/2 - 40px);
 }
-.col-3{
+
+.col-3 {
     width: calc(100%/3 - 40px);
 }
-.we-help{
+
+.we-help {
     padding: 30px 0;
 }
-section{
-   padding: 70px;
+
+section {
+    padding: 70px;
 }
-.invoicing{
+
+.invoicing {
     background-color: white;
     padding: 30px;
     border-radius: 9px;
-    
-    
+
+
 }
-.experience{
+
+.experience {
     font-size: 28px;
     padding: 20px 0;
 }
-.award{
+
+.award {
     color: coral;
     font-size: 36px;
 }
-.team{
+
+.team {
     padding: 30px;
 }
-.energy{
+
+.energy {
     background-color: #F58A07;
     color: white;
     padding: 0;
 }
 
-.experience-content{
+.experience-content {
     padding: 150px 0;
     width: 50%;
 }
-.pic{
+
+.pic {
     width: 100%;
     height: 100%;
     background-image: url(../images/experience-image.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
-.invoic{
+
+.invoic {
     background-color: white;
     border-radius: 20px;
-    padding: 20px;
 }
+
 .invoic img {
     padding: 0;
     width: 100%;
 }
 
-footer{
+footer {
     background-color: #063255;
     color: white;
     padding: 40px;
     line-height: 2rem;
 }
-footer a{
+
+footer a {
     color: white;
 }
-.type-email{
+
+.type-email {
     background-color: aliceblue;
     padding: 15px;
     border-radius: 50px;
     text-align: center;
 }
-.type-email a{
+
+.type-email a {
     color: black;
-    
+
 }
+
 .icon i {
     padding: 5px;
 }
-.see-job{
+
+.see-job {
     margin: 60px;
     background-color: white;
     padding: 20px;
     text-align: center;
     border-radius: 60px;
 }
-.latest a{
+
+.latest a {
     color: #F58A07;
 }
-.risk a{
+
+.risk a {
     color: #86bfee;
     padding: 10px;
     border: 3px solid #86bfee;
     border-radius: 50px;
 }
-.risk a:hover{
+
+.risk a:hover {
     color: #F58A07;
     background-color: white;
     border: 3px solid white;
+}
+
+.all img {
+    width: 100%;
+}
+
+.all {
+    align-items: center;
+}
+
+.p2h2 {
+    font-size: 48px;
+}
+
+.all ul {
+    line-height: 1.9rem;
+}
+
+.pos-tab {
+
+    background: rgba(193, 228, 255, 0.3);
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.pos-tab a {
+    padding-top: 20px;
+}
+
+.lblog {
+    padding: 20px;
+}
+
+.ll {
+    justify-content: left;
+}
+
+.orange img ::after {
+    position: absolute;
+    width: 180px;
+    height: 650px;
+    background: #F58A07;
+    mix-blend-mode: multiply;
+
+}
+
+footer::after {
+    position: absolute;
+    width: 53px;
+    height: 287px;
+    left: 1867px;
+    top: 2461px;
+    background: #F58A07;
+    border-radius: 20px 0px 0px 20px;
 }
